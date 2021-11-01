@@ -3,7 +3,7 @@
 
 import Foundation
 import Stripe
-final class StripeHandler : NSObject {
+public class StripeHandler : NSObject {
     //MARK: - Need to get stripe key from API
     /*
      let stripe = json.string("stripe_publish_key")
@@ -84,7 +84,7 @@ final class StripeHandler : NSObject {
     }
 }
 extension StripeHandler : STPAuthenticationContext{
-    func authenticationPresentingViewController() -> UIViewController {
+    public func authenticationPresentingViewController() -> UIViewController {
         
         return self.viewController
     }
