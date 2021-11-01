@@ -1,0 +1,23 @@
+PODS:
+  - Stripe (21.8.1):
+    - Stripe/Stripe3DS2 (= 21.8.1)
+    - StripeCore (= 21.8.1)
+  - Stripe/Stripe3DS2 (21.8.1):
+    - StripeCore (= 21.8.1)
+  - StripeCore (21.8.1)
+
+DEPENDENCIES:
+  - Stripe
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+    - StripeCore
+
+SPEC CHECKSUMS:
+  Stripe: 57c6997c64042a3f5aedae9b76e331942f8b75d2
+  StripeCore: a6e50d58119a0c7601773b56f274db2d394dcdac
+
+PODFILE CHECKSUM: b00a86160146c7bb857001667424328cc12c767e
+
+COCOAPODS: 1.11.2
