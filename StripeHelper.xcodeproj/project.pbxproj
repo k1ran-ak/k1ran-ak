@@ -11,6 +11,8 @@
 		D10939D1272FD40B007408C5 /* StripeHelper.docc in Sources */ = {isa = PBXBuildFile; fileRef = D10939D0272FD40B007408C5 /* StripeHelper.docc */; };
 		D10939D2272FD40B007408C5 /* StripeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D10939CF272FD40B007408C5 /* StripeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D10939D9272FD485007408C5 /* StripeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10939D8272FD485007408C5 /* StripeHandler.swift */; };
+		D10939DB272FE62A007408C5 /* libfile.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D10939DA272FE629007408C5 /* libfile.podspec */; };
+		D10939DD272FFD62007408C5 /* StripeHelper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D10939DC272FFD62007408C5 /* StripeHelper.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		D10939CF272FD40B007408C5 /* StripeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StripeHelper.h; sourceTree = "<group>"; };
 		D10939D0272FD40B007408C5 /* StripeHelper.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = StripeHelper.docc; sourceTree = "<group>"; };
 		D10939D8272FD485007408C5 /* StripeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeHandler.swift; sourceTree = "<group>"; };
+		D10939DA272FE629007408C5 /* libfile.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libfile.podspec; sourceTree = "<group>"; };
+		D10939DC272FFD62007408C5 /* StripeHelper.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StripeHelper.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		D10939C2272FD40B007408C5 = {
 			isa = PBXGroup;
 			children = (
+				D10939DC272FFD62007408C5 /* StripeHelper.podspec */,
+				D10939DA272FE629007408C5 /* libfile.podspec */,
 				D10939CE272FD40B007408C5 /* StripeHelper */,
 				D10939CD272FD40B007408C5 /* Products */,
 				C228A9E5A95F5905292F9950 /* Pods */,
@@ -150,6 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10939DB272FE62A007408C5 /* libfile.podspec in Resources */,
+				D10939DD272FFD62007408C5 /* StripeHelper.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
